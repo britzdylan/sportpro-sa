@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "build": "next build && next export",
+    "start": "serve out"
   },
   "dependencies": {
     "next": "latest",
+    "next-seo": "^4.10.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-iframe": "^1.8.0",
+    "serve": "11.2.0"
   },
   "devDependencies": {
     "postcss-flexbugs-fixes": "4.2.1",
