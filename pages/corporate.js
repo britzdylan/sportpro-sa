@@ -3,23 +3,47 @@ import OurWork from '../components/our-work'
 import { NextSeo } from 'next-seo';
 const gallery = [
     {
-        src: '/framing-1.jpg'
+        title: 'sports entertainment international'
     },
     {
-        src: '/framing-2.jpg'
+        title: 'phakisa holdings'
     },
     {
-        src: '/framing-3.jpg'
+        title: 'namibia mills'
     },
     {
-        src: '/framing-4.jpg'
+        title: 'curro'
     },
     {
-        src: '/framing-5.jpg'
+        title: 'buco hardware'
     },
     {
-        src: '/framing-6.jpg'
+        title: 'mastercard'
     },
+    {
+        title: 'UJ'
+    },
+    {
+        title: 'wits'
+    },
+    {
+        title: 'twinsaver'
+    },
+    {
+        title: 'trinity house'
+    },
+    {
+        title: 'sebata holdings'
+    },
+    {
+        title: 'netwater holdings'
+    },
+    {
+        title: 'kobelco'
+    },
+    {
+        title: 'bonitas'
+    }
 ]
 
 const offer = [
@@ -52,7 +76,7 @@ export default function Corporate() {
                 canonical="https://www.sportprosa.co.za"
                 openGraph={{
                     title: 'Leading distributor of promotional products | Sportpro South Africa',
-                    description: 'With over 3000 unique items you are guaranteed to find the perfect product to connect your brand to your customer.',
+                    description: 'With over 3000 unique products, you are, guaranteed to find the perfect product to connect your brand to your customer.',
                     images: [{
                         url: "/corp-bg.jpg",
                         width: 600,
@@ -115,11 +139,13 @@ export default function Corporate() {
                 <section className="text-gray-700 body-font">
                     <div className="container px-5 py-24 mx-auto flex flex-wrap">
                         <div className="flex w-full mb-20 flex-wrap">
-                            <h2 className="sm:text-3xl text-2xl font-bold title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Explore some of our work</h2>
+                            <h2 className="sm:text-3xl text-3xl font-bold title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Our Clients</h2>
                         </div>
-                        <div className="flex  flex-wrap justify-center">
+                        <div className="flex flex-wrap justify-start">
                             {gallery.map((item, index) =>
-                                <OurWork item={item} index={index} />
+                                <div className="hover:shadow-md hover:scale-110 hover:bg-gray-200 p-5 mr-10 mt-10 transform transition-all rounded duration-500 ease-in-out cursor-pointer" key={index}>
+                                    <img loading="lazy" title={item.title} src={`c-${index + 1}.png`} width="150px" alt={item.title} />
+                                </div>
                             )
                             }
                         </div>
