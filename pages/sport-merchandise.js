@@ -122,7 +122,7 @@ export default function SportMerch() {
 
                 <section className="text-gray-700">
                     <div className="flex flex-col text-center w-full mb-5">
-                        <h2 className="text-xs text-green-700 tracking-widest font-medium title-font mb-1">TAP THE BRANDS TO EXPLORE OUR CATALOGUES</h2>
+                        <h2 className="text-xs text-green-700 tracking-widest font-medium title-font mb-1">QUALITY OVER QUANTITY, WE ONLY WORK WITH THE BEST</h2>
                         <h3 className="sm:text-3xl text-2xl font-bold title-font mt-0 text-gray-900">Our Partners</h3>
                     </div>
 
@@ -133,6 +133,16 @@ export default function SportMerch() {
                                 <img loading="lazy" title={item.alt} src={item.src} width="150px" alt={item.alt} />
                             </div>
                         )}
+                    </div>
+                </section>
+
+                {/* brochure */}
+                <section className="text-gray-700 body-font mx-5 bg-green-700 my-20 rounded shadow-2xl">
+                    <div className="container px-5 py-24 mx-auto">
+                        <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+                            <h2 className="flex-grow sm:pr-16 text-3xl font-bold title-font text-white">View our entire catalogue</h2>
+                            <a download href="/sport-merch.pdf" className="flex-shrink-0 text-gray-900 bg-white font-light border-0 py-2 px-8 focus:outline-none hover:bg-gray-400 rounded text-xl mt-10 sm:mt-0">Download</a>
+                        </div>
                     </div>
                 </section>
 
@@ -156,18 +166,9 @@ export default function SportMerch() {
                                         <input className="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-green-700 text-base px-4 py-2" placeholder="Email" id="email" name="_replyto" required type="email" />
                                     </div>
                                     <div className="p-2 w-full">
-                                        <label for="brand">Choose a brand:</label>
-                                        <select className="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-green-700 text-base px-4 py-2" name="brand" id="brand" form="sport-form">
-                                            <option value="gilbert">Gilbert</option>
-                                            <option value="asics">Asics</option>
-                                            <option value="puma">Puma</option>
-                                            <option value="blk">BLK</option>
-                                        </select>
-                                    </div>
-                                    <div className="p-2 w-full">
-                                        <label for="message">List your reference codes here:</label>
+                                        <label for="message">Give us a brief of what you need or any specific products you are interested in:</label>
 
-                                        <textarea className="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-green-700 text-base px-4 py-2 resize-none block" name="message" id="message" required placeholder="JB1234,JB1999"></textarea>
+                                        <textarea className="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-green-700 text-base px-4 py-2 resize-none block" name="message" id="message" required placeholder="Message"></textarea>
                                     </div>
                                     <div className="p-2 w-full">
                                         <input className="flex mx-auto text-white bg-green-700 border-0 py-2 px-8 focus:outline-none hover:bg-green-500 rounded text-lg" type="submit" value="Send Message" />

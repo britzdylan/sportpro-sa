@@ -10,6 +10,7 @@ export default function Hero() {
                     <h1 className="title-font sm:text-4xl text-4xl mb-4 font-bold text-gray-900">Global sports, lifestyle & corporate
                         <br className="hidden lg:inline-block" />distributer
                     </h1>
+                    <p className="text-2xl font-bold ">Level 4 B-BBEE Accredited</p>
                     <div className="flex justify-center">
                         <a href="#explore" className="inline-flex text-white bg-green-700 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Explore</a>
                     </div>
