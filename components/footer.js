@@ -38,16 +38,16 @@ distributer</p>
                         <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Services</h2>
                         <nav className="list-none mb-10">
                             <li>
-                                <a href="/corporate" className="text-gray-600 hover:text-gray-800">Corporate & Promotional</a>
+                                <Link href="/corporate"><a href="/corporate" className="text-gray-600 hover:text-gray-800">Corporate & Promotional</a></Link>
                             </li>
                             <li>
-                                <a href="/art-framing" className="text-gray-600 hover:text-gray-800">Art Framing & Memorabilia</a>
+                                <Link href="/art-framing"><a href="/art-framing" className="text-gray-600 hover:text-gray-800">Art Framing & Memorabilia</a></Link>
                             </li>
                             <li>
-                                <a href="/sport-merchandise" className="text-gray-600 hover:text-gray-800">Sport Merchandise</a>
+                                <Link href="/sport-merhcandise"><a href="/sport-merchandise" className="text-gray-600 hover:text-gray-800">Sport Merchandise</a></Link>
                             </li>
                             <li>
-                                <a href="/sportpro-lodge" className="text-gray-600 hover:text-gray-800">Lodge</a>
+                                <Link href="/sportpro-lodge"><a href="/sportpro-lodge" className="text-gray-600 hover:text-gray-800">Lodge</a></Link>
                             </li>
                         </nav>
                     </div>
@@ -55,13 +55,13 @@ distributer</p>
                         <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Info</h2>
                         <nav className="list-none mb-10">
                             <li>
-                                <a href="/privacy" className="text-gray-600 hover:text-gray-800">Privacy Policy</a>
+                                <Link href="/privacy" ><a href="/privacy" className="text-gray-600 hover:text-gray-800">Privacy Policy</a></Link>
                             </li>
                             <li>
-                                <a href="/sitemap" className="text-gray-600 hover:text-gray-800">Sitemap</a>
+                                <Link href="/sitemap" ><a href="/sitemap" className="text-gray-600 hover:text-gray-800">Sitemap</a></Link>
                             </li>
                             <li>
-                                <a href="/" className="text-gray-600 hover:text-gray-800">Home</a>
+                                <Link href="/"><a href="/" className="text-gray-600 hover:text-gray-800">Home</a></Link>
                             </li>
                         </nav>
                     </div>

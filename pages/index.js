@@ -1,7 +1,9 @@
 import Layout from '../components/Layout'
 import Hero from '../components/hero'
 import WhatWeDo from '../components/what-we-do'
-import { NextSeo } from 'next-seo';
+import { NextSeo } from 'next-seo'
+import Link from 'next/link'
+
 export default function IndexPage() {
   return (
     <>
@@ -23,16 +25,16 @@ export default function IndexPage() {
                 <h2 class="title-font font-bold text-gray-800 tracking-widest text-sm mb-3">CATEGORIES</h2>
                 <nav class="flex flex-wrap list-none -mb-1">
                   <li class="lg:w-1/3 mb-1 w-1/2">
-                    <a href="/sportpro-lodge" class="text-gray-600 hover:text-gray-800">Sportpro Lodging</a>
+                    <Link href="/sportpro-lodge"><a href="/sportpro-lodge" class="text-gray-600 hover:text-gray-800">Sportpro Lodging</a></Link>
                   </li>
                   <li class="lg:w-1/3 mb-1 w-1/2">
-                    <a href="/sport-merchandise" class="text-gray-600 hover:text-gray-800">Sport merchandising</a>
+                    <Link href="/sport-merchandise"><a href="/sport-merchandise" class="text-gray-600 hover:text-gray-800">Sport merchandising</a></Link>
                   </li>
                   <li class="lg:w-1/3 mb-1 w-1/2">
-                    <a href="/corporate" class="text-gray-600 hover:text-gray-800">Corporate & Promotional</a>
+                    <Link href="/corporate"><a href="/corporate" class="text-gray-600 hover:text-gray-800">Corporate & Promotional</a></Link>
                   </li>
                   <li class="lg:w-1/3 mb-1 w-1/2">
-                    <a href="/art-framing" class="text-gray-600 hover:text-gray-800">Art framing & Memorabilia</a>
+                    <Link href="/art-framing"><a href="/art-framing" class="text-gray-600 hover:text-gray-800">Art framing & Memorabilia</a></Link>
                   </li>
                   <li class="lg:w-1/3 mb-1 w-1/2">
                     <a target="_blank" href="https://www.worldofrugby.co.za" class="text-gray-600 hover:text-gray-800">WorldofRugby</a>
