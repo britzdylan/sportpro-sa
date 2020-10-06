@@ -140,8 +140,12 @@ export default function SportMerch() {
                 <section className="text-gray-700 body-font mx-5 bg-green-700 my-20 rounded shadow-2xl">
                     <div className="container px-5 py-24 mx-auto">
                         <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
-                            <h2 className="flex-grow sm:pr-16 text-3xl font-bold title-font text-white">View our entire catalogue</h2>
-                            <a download href="/sport-merch.pdf" className="flex-shrink-0 text-gray-900 bg-white font-light border-0 py-2 px-8 focus:outline-none hover:bg-gray-400 rounded text-xl mt-10 sm:mt-0">Download</a>
+                            <h2 className="flex-grow sm:pr-16 text-3xl font-bold title-font text-white">View our entire sports catalogue for 2021</h2>
+                            <a download href="/SPORTS-2021.pdf" className="flex-shrink-0 text-gray-900 bg-white font-light border-0 py-2 px-8 focus:outline-none hover:bg-gray-400 rounded text-xl mt-10 sm:mt-0">Download</a>
+                        </div>
+                        <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+                            <h2 className="flex-grow sm:pr-16 text-3xl font-bold title-font text-white">View our entire field & training equipment for 2021</h2>
+                            <a download href="/SPORT-2021.pdf" className="flex-shrink-0 text-gray-900 bg-white font-light border-0 py-2 px-8 focus:outline-none hover:bg-gray-400 rounded text-xl mt-10 sm:mt-0">Download</a>
                         </div>
                     </div>
                 </section>

@@ -75,7 +75,7 @@ export default function Brands() {
                                 </h2>
                                 <p className="mb-8 leading-relaxed text-lg">{brand.description}</p>
                                 <div className="flex justify-center">
-                                    <a href={brand.link} target="_blank" className={`inline-flex text-white bg-${brand.color}-600 border-0 py-2 px-6 focus:outline-none hover:bg-${brand.color}-800 rounded text-lg tracking-wider`}>Visit</a>
+                                    <a href={brand.link} target="_blank" className={`inline-flex text-white bg-gray-900 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 rounded text-lg tracking-wider`}>Visit</a>
                                 </div>
                             </div>
                             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 shadow-2xl">
