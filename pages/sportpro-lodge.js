@@ -62,7 +62,7 @@ const additionalFeatures = [
         title: 'Tennis court'
     },
     {
-        title: 'Breakfast'
+        title: 'Optional Breakfast & Lunch'
     },
     {
         title: 'On-site kitchen'
