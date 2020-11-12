@@ -27,6 +27,8 @@ export default function Nav() {
         <nav className="flex lg:w-2/5 flex-wrap items-center justify-end text-base cursor-pointer">
           <Link href="/sportpro-lodge"><a style={{ fontWeight: router.pathname == '/sportpro-lodge' ? '700' : '500' }} className="mr-5 hover:text-green-700">Lodging</a></Link>
           <Link href="/art-framing"><a style={{ fontWeight: router.pathname == '/art-framing' ? '700' : '500' }} className="hover:text-green-700">Art Framing & Memorabilia</a></Link>
+          <Link href="/marketing-events"><a style={{ fontWeight: router.pathname == '/marketing-events' ? '700' : '500' }} className="ml-5 hover:text-green-700">Marketing & Events</a></Link>
+        
         </nav>
       </div>
 
