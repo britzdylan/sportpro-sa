@@ -88,7 +88,7 @@ const additionalFeatures = [
 ]
 const gallery = []
 
-for (let i = 1; i <= 15; i++) {
+for (let i = 1; i <= 31; i++) {
     gallery.push({
 
         src: `/lodge-${i}.jpg`,
