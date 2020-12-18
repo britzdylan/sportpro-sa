@@ -40,7 +40,7 @@ const capabilities = [
     {
         title: 'Box Framing',
         img: 'box-framing.jpg',
-        desc: 'This is a perfect look for a modern environment and creates an understated elegance. Box framing in recent years has become an increasingly popular way of framing due its clean lines and simplicity.'
+        desc: 'This is a perfect look htmlFor a modern environment and creates an understated elegance. Box framing in recent years has become an increasingly popular way of framing due its clean lines and simplicity.'
     },
     {
         title: 'Sports & Memorabilia Framing',
@@ -116,7 +116,7 @@ export default function ArtFraming() {
                         </div>
                         <div className="lg:w-2/6 md:w-1/2 bg-gray-200 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
                             <h2 className="text-gray-900 text-xl font-bold title-font mb-5">Request a call back</h2>
-                            <form action="https://formspree.io/mvovpnjp" method="POST" classNameName="flex flex-col">
+                            <form action="https://formspree.io/mvovpnjp" method="POST" className="flex flex-col">
                                 <input className="w-full bg-white rounded border border-gray-400 focus:outline-none focus:border-green-700 text-base px-4 py-2 mb-4" required name="name" placeholder="Name" type="text" />
                                 <input className="w-full bg-white rounded border border-gray-400 focus:outline-none focus:border-green-700 text-base px-4 py-2 mb-4" required name="contact number" placeholder="Number" type="number" />
                                 <input className="w-full text-white bg-green-700 border-0 py-2 px-8 focus:outline-none hover:bg-green-700 rounded text-lg" type="submit" value="Call me" />
@@ -174,7 +174,7 @@ export default function ArtFraming() {
                         </div>
                         <div className="flex flex-wrap justify-center">
                             {gallery.map((item, index) =>
-                                <OurWork item={item} index={index} />
+                                <OurWork key={index} item={item} index={index} />
                             )
                             }
                         </div>

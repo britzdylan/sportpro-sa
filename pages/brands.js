@@ -64,9 +64,9 @@ export default function Brands() {
             <Layout>
                 <h1 className="text-3xl font-bold mt-20 text-center">Our Brands</h1>
                 <hr />
-                {brands.map(brand =>
+                {brands.map((brand, index )=>
 
-                    <section className="text-gray-700 body-font">
+                    <section key={index} className="text-gray-700 body-font">
 
                         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
 

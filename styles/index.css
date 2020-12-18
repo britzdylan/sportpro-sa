@@ -115,3 +115,7 @@ small, .text_small {font-size: 0.8em;}
   stroke-dashoffset: -134;
   stroke-width: 6;
 }
+
+.swiper-button-next, .swiper-button-prev {
+  color : black !important;
+}

@@ -15,7 +15,7 @@ export default function Hero() {
                         <a href="#explore" className="inline-flex text-white bg-green-700 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Explore</a>
                     </div>
                 </div>
-                <video className="lg:max-w-xl lg:w-full md:w-1/2 w-full shadow-md" controls playsinline autoplay muted loop id="bgvid">
+                <video className="lg:max-w-xl lg:w-full md:w-1/2 w-full shadow-md" controls playsInline autoPlay muted loop id="bgvid">
                     <source src="/cover.mp4" type="video/mp4" />
                 </video>
             </div>

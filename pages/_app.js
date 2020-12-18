@@ -1,4 +1,7 @@
 import '../styles/index.css'
+import 'swiper/swiper.scss';
+import 'swiper/components/navigation/navigation.scss';
+import SimpleReactLightbox from 'simple-react-lightbox'
 import { DefaultSeo } from 'next-seo';
 
 
@@ -23,7 +26,9 @@ function MyApp({ Component, pageProps }) {
           ]
         }}
       />
+      <SimpleReactLightbox>
       <Component {...pageProps} />
+      </SimpleReactLightbox>
     </>
   )
 }

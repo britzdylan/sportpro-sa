@@ -140,11 +140,11 @@ export default function SportMerch() {
                 <section className="text-gray-700 body-font mx-5 bg-green-700 my-20 rounded shadow-2xl">
                     <div className="container px-5 py-24 mx-auto">
                         <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
-                            <h2 className="flex-grow sm:pr-16 text-3xl font-bold title-font text-white">View our entire sports catalogue for 2021</h2>
+                            <h2 className="flex-grow sm:pr-16 text-3xl font-bold title-font text-white">View our entire sports catalogue htmlFor 2021</h2>
                             <a download href="/SPORTS-2021.pdf" className="flex-shrink-0 text-gray-900 bg-white font-light border-0 py-2 px-8 focus:outline-none hover:bg-gray-400 rounded text-xl mt-10 sm:mt-0">Download</a>
                         </div>
                         <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
-                            <h2 className="flex-grow sm:pr-16 text-3xl font-bold title-font text-white">View our entire field & training equipment for 2021</h2>
+                            <h2 className="flex-grow sm:pr-16 text-3xl font-bold title-font text-white">View our entire field & training equipment htmlFor 2021</h2>
                             <a download href="/equipment.pdf" className="flex-shrink-0 text-gray-900 bg-white font-light border-0 py-2 px-8 focus:outline-none hover:bg-gray-400 rounded text-xl mt-10 sm:mt-0">Download</a>
                         </div>
                     </div>
@@ -161,16 +161,16 @@ export default function SportMerch() {
                                 <div className="flex flex-wrap -m-2">
 
                                     <div className="p-2 w-1/2">
-                                        <label for="name">Full Name:</label>
+                                        <label htmlFor="name">Full Name:</label>
                                         <input className="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-green-700 text-base px-4 py-2" id="name" placeholder="Name" name="name" required type="text" />
                                     </div>
                                     <div className="p-2 w-1/2">
-                                        <label for="email">Email:</label>
+                                        <label htmlFor="email">Email:</label>
 
                                         <input className="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-green-700 text-base px-4 py-2" placeholder="Email" id="email" name="_replyto" required type="email" />
                                     </div>
                                     <div className="p-2 w-full">
-                                        <label for="message">Give us a brief of what you need or any specific products you are interested in:</label>
+                                        <label htmlFor="message">Give us a brief of what you need or any specific products you are interested in:</label>
 
                                         <textarea className="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-green-700 text-base px-4 py-2 resize-none block" name="message" id="message" required placeholder="Message"></textarea>
                                     </div>
